@@ -1,0 +1,13 @@
+.clients__list {
+  max-width: 1480px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.clients__item {
+  width: 197px;
+  height: 77px;
+  margin-bottom: 90px;
+}
+
+/*# sourceMappingURL=clients.css.map */
