@@ -42,9 +42,19 @@
                     <li><a href="#">контакты</a></li>
                 </ul>
             </nav>
-            <div class="btn callback header-mobile__callback">связаться</div>
+            <!--все, на что кликается оборачивать в button-->
+            <button class="btn callback header-mobile__callback">связаться</button>
         </div>
     </div>
+    <!--
+
+    объеденить хэдеры
+    order for child elements
+
+    -->
+    <!--
+
+    -->
 </header>
 <div class="blue_background">
     <section class="order-adv">
@@ -52,13 +62,14 @@
             <div class="container--inner">
                 <div class="content">
                     <div class="row order-adv__row-text">
-                        <div class="title">Закажи рекламу у блогеров</div>
+                        <h1 class="title">Закажи рекламу у блогеров</h1>
                         <p>
                             Проверенные блогеры, лидеры мнений, амбассадоры, инфлюенсеры.
                             Все этапы переговоров и решение проблем берём на себя!
                         </p>
                     </div>
                     <div class="row order-adv__row-stats">
+                        <!--такие вещи делаются списком (все, что перечисление однотипных элементов)-->
                         <div class="col">
                             <div class="count">200 000</div>
                             <div class="description">охват</div>
@@ -83,16 +94,16 @@
     <section class="bloggers">
         <div class="container">
             <div class="container--inner">
-                <div class="section-title section-title__hidden">Наши блогеры</div>
+                <div class="section-title section-title__hidden">Наши блогеры</div> <!--h2-->
                 <div class="list bloggers__list">
 
                     <div class="swiper-container">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper"> <!--передалет на ul-->
                             <div class="swiper-slide">
                                 <div class="card bloggers__card">
                                     <div class="row bloggers__card-header bloggers__card-padding">
-                                        <div class="image"><img src="img/avatars/1.png" alt="#"></div>
-                                        <div class="text">Имя Фамилия</div>
+                                        <div class="card__image image"><img src="img/avatars/1.png" alt="#"></div>
+                                        <div class="card__text text">Имя Фамилия</div>
                                     </div>
                                     <div class="bloggers__card-avatar"><img src="img/avatars/1_big.png" alt="#"></div>
                                     <div class="bloggers__card-description bloggers__card-padding">
@@ -101,22 +112,28 @@
                                         и туризме.
                                     </div>
                                     <div class="bloggers__card-soc bloggers__card-padding">
-                                        <div class="title">Популярность в соц.сетях</div>
+                                        <div class="title">Популярность в соц.сетях</div><!--h3-->
+                                        <!--list (ul)-->
+                                        <div class="list card__list">
+                                            <div class="list__item list__item_is-active">
+
+                                            </div>
+                                        </div>
                                         <div class="list">
-                                            <a href="#" class="item">
-                                                <div class="icon"><img src="img/icons/soc/youtube.svg" alt="#"></div>
+                                            <a href="#" class="item" area-lable="описание того, что по ссылке"> <!--TODO::g-->
+                                                <div class="icon"><img src="img/icons/soc/youtube.svg" alt=""></div>
                                                 3,29
                                             </a>
                                             <a href="#" class="item">
-                                                <div class="icon"><img src="img/icons/soc/inst.svg" alt="#"></div>
+                                                <div class="icon"><img src="img/icons/soc/inst.svg" alt=""></div>
                                                 3,29
                                             </a>
                                             <a href="#" class="item">
-                                                <div class="icon"><img src="img/icons/soc/fb.svg" alt="#"></div>
+                                                <div class="icon"><img src="img/icons/soc/fb.svg" alt=""></div>
                                                 3,29
                                             </a>
                                             <a href="#" class="item">
-                                                <div class="icon"><img src="img/icons/soc/vk.svg" alt="#"></div>
+                                                <div class="icon"><img src="img/icons/soc/vk.svg" alt=""></div>
                                                 3,29
                                             </a>
                                         </div>
@@ -125,7 +142,7 @@
                                         <div class="btn btn__blue">подробнее</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> <!--переделать на li-->
                             <div class="swiper-slide">
                                 <div class="card bloggers__card">
                                     <div class="row bloggers__card-header bloggers__card-padding">
@@ -338,7 +355,7 @@
                     <img src="img/partners/1.png" alt="#">
                 </div>
                 <div class="item clients__item">
-                    <img src="img/partners/2.png" alt="#">
+                    <img src="img/partners/2.png" alt="#"><!--alt="произношение логотипа"-->
                 </div>
                 <div class="item clients__item">
                     <img src="img/partners/3.png" alt="#">

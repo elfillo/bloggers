@@ -23,9 +23,11 @@
 
 @font-face{
     font-family: "Geometria";
-    src: url("../fonts/geometrica/geometria-light.ttf") format("truetype");
+    src: url("../fonts/geometrica/geometria-light.ttf") format("truetype"),
+    url("../fonts/geometrica/geometria-light.ttf") format("truetype");
     font-style: normal;
     font-weight: 300;
+    font-display: swap; //прописать для каждого
 }
 
 @font-face{

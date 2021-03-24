@@ -9,10 +9,10 @@ var swiper = new Swiper('.swiper-container', {
     },
     slidesPerView: 1,
     spaceBetween: 0,
-    //centeredSlides: true,
     breakpoints:{
         1100:{
-            slidesPerView: 3,
+            //slidesPerView: 3,
+            slidesPerView: 'auto',
             spaceBetween: 51,
             freeMode: true,
         }
