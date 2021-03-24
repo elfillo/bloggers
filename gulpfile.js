@@ -4,6 +4,7 @@ const server         = require('browser-sync').create();
 const nunjucksRender = require('gulp-nunjucks-render');
 const htmlbeautify   = require('gulp-html-beautify');
 const plumber        = require('gulp-plumber');
+const notify         = require('gulp-notify');
 
 const path = {
     root: '.',
@@ -18,7 +19,7 @@ const path = {
 gulp.task('serve', function () {
     server.init({
         server: {
-            baseDir: 'dist',
+            baseDir: './',
             directory: false,
             serveStaticOptions: {
                 extensions: ['html']

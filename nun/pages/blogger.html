@@ -1,0 +1,40 @@
+{% extends 'templates/_blogger.html' %}
+
+{% set name = 'The Kate Clapp' %}
+{% set fullName = 'Катя Клэп / Екатерина Трофимова' %}
+{% set blogger =
+    {
+        main_avatar: 'img/avatars/personal-ava.png',
+        about: {
+            'avatar': 'img/avatars/1_big.png',
+            'text'  : '
+                    <p>
+                    Российский видеоблогер. Публикует видеоролики в таких жанрах, как скетчи, разговорные видео,
+                    музыкальные пародии и тому подобные. Её видеопроекты входят в топ-10 самых прибыльных в
+                    России. На апрель 2018 года имеет более 6,1 миллионов подписчиков на основном канале
+                    TheKateClapp и более 1,6 миллиона на втором канале FoggyDisaster.
+                    </p>
+                    <p>
+                    Свою деятельность начала в 2008 году под псевдонимом Kate Clapp на своём первом
+                    YouTube-канале FoggyDisaster. Форматом канала выбрала скетчи и пародии. За три года набрала
+                    около 250 тысяч подписчиков и более 33 миллионов просмотров.
+                    </p>
+                    <p>
+                    На данный момент публикует видеоролики только на своём влоговом канале под названием
+                    TheKateClapp с аудиторией в 7,07 миллионов человек (сентябрь 2020). Является одной из самых
+                    популярных девушек-видеоблогеров в российском сегменте YouTube.
+                    </p>
+            '
+        }
+    }
+%}
+{% set social_accounts = [
+    { name: 'Instagram', subscribers: '8 млн', status_bar: 85, link: '#', label: 'inst' },
+    { name: 'YouTube', subscribers: '7,13 м', status_bar: 60, link: '#', label: 'youtube' },
+    { name: 'Twitter', subscribers: '3 млн.', status_bar: 46, link: '#', label: 'twitter' },
+    { name: 'Вконтакте', subscribers: '1 млн.', status_bar: 77, link: '#', label: 'vk' },
+    { name: 'FaceBook', subscribers: '10 млн.', status_bar: 97, link: '#', label: 'fb' }
+]%}
+{% set content_types = [
+    'beauty', 'travel', 'vlog'
+]%}

@@ -5,8 +5,11 @@
     +adaptive($mobile)
       margin-left: 0 !important
   &__card
+    display: flex
+    flex-direction: column
     width: 421px
-    height: 688px
+    //height: 688px
+    height: 740px
     background: #FFFFFF
     border-radius: 20px
     padding: 20px 0
@@ -27,9 +30,14 @@
         background-size: cover
         background-repeat: no-repeat
         margin-right: 21px
+        img
+          height: 100%
+          object-fit: cover
+          border-radius: 100%
 
       .text
         font-family: Geometria
+        max-width: calc(100% - 100px)
         font-style: normal
         font-weight: 700
         font-size: 22px
@@ -39,6 +47,10 @@
     &-avatar
       height: 241px
       margin-bottom: 22px
+      overflow: hidden
+      img
+        height: 100%
+        object-fit: cover
 
     &-description
       font-size: 18px
@@ -47,9 +59,11 @@
     &-btn
       display: flex
       justify-content: center
+      margin-top: auto
       .btn
         width: 179px
     &-soc
+      margin-top: auto
       .title
         font-family: Geometria
         font-style: normal

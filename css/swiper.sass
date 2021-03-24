@@ -1,7 +1,7 @@
 .swiper-container
   padding-bottom: 140px !important
   width: 100%
-  overflow: unset !important
+  //overflow: unset !important
 
 .swiper-pagination
   max-width: 598px
@@ -25,6 +25,8 @@
     left: calc(50% - 100px - 40px) !important
 
 .swiper-button-next, .swiper-button-prev
+  &:focus
+    outline: none!important
   top: calc(100% - 68px) !important
   color: #BABABA !important
 
