@@ -7,11 +7,9 @@ var swiper = new Swiper('.swiper-container', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    slidesPerView: 1,
-    spaceBetween: 0,
+    slidesPerView: 'auto',
     breakpoints:{
         1100:{
-            //slidesPerView: 3,
             slidesPerView: 'auto',
             spaceBetween: 51,
             freeMode: true,

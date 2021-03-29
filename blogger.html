@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/core.min.css">
+    <title>Блогер</title>
+</head>
+<div class="blue-gradient-background">
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <a href="/" class="logo header__logo"><img src="img/icons/logo.png" alt="Логотип"></a>
+                <nav class="nav-menu header__menu">
+                    <ul class="nav-menu__list">
+                        <li class="active"><a href="#">главная</a></li>
+                        <li><a href="./#bloggers">блогеры</a></li>
+                        <li><a href="./#clients">клиенты</a></li>
+                        <li><a href="./#review">отзывы</a></li>
+                        <li><a href="./#contacts">контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="btn btn_coral callback header__callback">связаться</button>
+                <button class="burger"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    <div class="breadcrumbs container">
+        <a href="/" class="breadcrumbs__button btn-circle"></a>
+        <a href="/">Вернуться на главную</a></div>
+    <section class="blogger-profile">
+        <div class="blogger-profile__container container">
+            <div class="blogger-profile__bio">
+                <h1 class="blogger-profile__h1 title_h1">Готовим дома</h1>
+                <h2 class="blogger-profile__h2 title_h2">Кулинарный блог</h2>
+                <div class="blogger-profile__subscribe-stat">
+                    <ul class="subscribe-stat-table">
+                        <li class="subscribe-stat-table__header">
+                            <span>Социальная сеть</span><span>Число подписчиков</span>
+                        </li>
+                        <li class="subscribe-stat-table__row progress-bar-75">
+                            <span>Instagram</span><span>15,2 тыс.</span>
+                        </li>
+                        <li class="subscribe-stat-table__row progress-bar-85">
+                            <span>Instagram</span><span>15,2 тыс.</span>
+                        </li>
+                        <li class="subscribe-stat-table__row progress-bar-75">
+                            <span>Instagram</span><span>15,2 тыс.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="blogger-profile__content-types content-types">
+                    <div class="content-types__title">Вид контента</div>
+                    <ul class="content-types__list">
+                        <li class="content-types__item" style="background-image: url(../img/temp_content/ct_1.png)">Кулинария</li>
+                        <li class="content-types__item" style="background-image: url(../img/temp_content/ct_1.png)">Кулинария</li>
+                        <li class="content-types__item" style="background-image: url(../img/temp_content/ct_1.png)">Кулинария</li>
+                        <li class="content-types__item" style="background-image: url(../img/temp_content/ct_1.png)">Кулинария</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="blogger-profile__avatar-callback">
+                <div class="blogger-profile__avatar"><img src="img/temp_content/avatar_1.png" alt="Фото Готовим дома">
+                </div>
+                <div class="blogger-profile__callback callback btn btn_blue">заказать рекламу</div>
+            </div>
+            <ul class="blogger-profile__socials">
+                <li class="soc-btn_circle inst-circle"></li>
+                <li class="soc-btn_circle inst-circle"></li>
+                <li class="soc-btn_circle inst-circle"></li>
+                <li class="soc-btn_circle inst-circle"></li>
+                <li class="soc-btn_circle inst-circle"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="blogger-about">
+        <div class="container">
+            <div class="title-section title-section_hidden">О блогере</div>
+            <div class="blogger-about__content">
+                <div class="blogger-about__photo"><img src="img/temp_content/photo_1.png" alt="Фото блогера"></div>
+                <div class="blogger-about__text">
+                    <p>Проект Готовим дом - иркутский авторский кулинарный блог! Просто о вкусном - так в двух словах можно описать суть проекта. Все рецепты, собранные в блоге, приготовлены из простых, привычных продуктов, а процесс, чаще всего, не займет много времени. Зато результат может превзойти все ожидания! Каждый рецепт проверен главными критиками - родными и близкими!</p>
+                    <p>Блог существует почти 2 года. За это время накоплено более 700 рецептов и армия преданных поклонников. Постоянными партнерами проекта выступают крупные производители Иркутской области - Саянский бройлер, Касес, Ангарский мясокомбинат, Шелеховский гриб и т.д.</p>
+                    <p>Большая часть аудитории (79%) - это жители Байкальского региона (Иркутская область и республика Бурятия). Именно поэтому местным производителям интересно и выгодно сотрудничество с блогом. Проект нативно рассказывает о продукции партнеров, создает положительный образ и увеличивает узнаваемость бренда.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="callback-form">
+    <div class="container">
+        <div class="callback-form__wrapper">
+            <div class="callback-form__block block-form_pink">
+                <form action="#" class="callback-form__form">
+                    <div class="callback-form__title">Нужна реклама <br/> от блогера? Сделаем!</div>
+                    <div class="callback-form__inputs">
+                        <input type="text" placeholder="Ваше имя или компания" name="name" class="input"
+                               autocomplete="off">
+                        <input type="email" placeholder="E-mail" name="email" class="input" autocomplete="off">
+                    </div>
+                    <div class="callback-form__submit">
+                        <div class="callback-form__disclaimer">
+                            Вашим данным ничего не угрожает. <br/>
+                            Мы соблюдаем Политику конфиденциальности
+                        </div>
+                        <input type="submit" value="отправить" class="callback-form__button btn btn_blue">
+                    </div>
+                </form>
+                <div class="callback-form__wallpaper"><img src="img/wallpapers/mobile-and-smiles.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="contacts" class="footer">
+    <div class="container footer__container">
+        <div class="footer__title title-section title-section_hidden">Контакты</div>
+        <div class="footer-card">
+            <ul class="footer-card__contacts">
+                <li class="footer-card__contact footer-card__contact_address">г. Иркутск, ул. Ленина</li>
+                <li class="footer-card__contact footer-card__contact_phone"><a href="tel:(3952) 123-456">(3952)
+                    123-456</a></li>
+                <li class="footer-card__contact footer-card__contact_email"><a href="mailto:sib_blog@mail.ru">sib_blog@mail.ru</a>
+                </li>
+            </ul>
+            <div class="footer-card__socials-title">Мы в социальных сетях:</div>
+            <ul class="footer-card__socials">
+                <li class="footer-card__social"><a href="#" class="soc-btn soc-btn_square youtube"></a>Блогеры Сиб</li>
+                <li class="footer-card__social"><a href="#" class="soc-btn soc-btn_square inst"></a>Блогеры Сиб</li>
+                <li class="footer-card__social"><a href="#" class="soc-btn soc-btn_square fb"></a>Блогеры Сиб</li>
+                <li class="footer-card__social"><a href="#" class="soc-btn soc-btn_square vk"></a>Блогеры Сиб</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn_blue footer-card__button">построить маршрут</a>
+        </div>
+    </div>
+    <div id="map"></div>
+</footer>
+<div class="modal">
+    <div class="callback-form__wrapper">
+        <div class="callback-form__block block-form_pink">
+            <div class="close close-modal"></div>
+            <form action="#" class="callback-form__form">
+                <div class="callback-form__title">Нужна реклама <br/> от блогера? Сделаем!</div>
+                <div class="callback-form__inputs">
+                    <input type="text" placeholder="Ваше имя или компания" name="name" class="input"
+                           autocomplete="off">
+                    <input type="email" placeholder="E-mail" name="email" class="input" autocomplete="off">
+                </div>
+                <div class="callback-form__submit">
+                    <div class="callback-form__disclaimer">
+                        Вашим данным ничего не угрожает. <br/>
+                        Мы соблюдаем Политику конфиденциальности
+                    </div>
+                    <input type="submit" value="отправить" class="callback-form__button btn btn_blue">
+                </div>
+            </form>
+            <div class="callback-form__wallpaper"><img src="img/wallpapers/mobile-and-smiles.png" alt=""></div>
+        </div>
+    </div>
+</div>
+<body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/core.js"></script>
+<script src="js/map.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>

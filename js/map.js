@@ -18,14 +18,14 @@ $(function () {
 
                 myMap.behaviors.disable('scrollZoom');
 
-                var myPlacemark = new ymaps.Placemark(center, {}, {
-                    iconLayout: 'default#image',
-                    iconImageHref: '/wp-content/themes/baikal-story/img/logo.svg',
-                    iconImageSize: [38, 37],
-                    iconImageOffset: [-3, -42]
-                });
-
-                myMap.geoObjects.add(myPlacemark);
+                // var myPlacemark = new ymaps.Placemark(center, {}, {
+                //     iconLayout: 'default#image',
+                //     iconImageHref: '/wp-content/themes/baikal-story/img/logo.svg',
+                //     iconImageSize: [38, 37],
+                //     iconImageOffset: [-3, -42]
+                // });
+                //
+                // myMap.geoObjects.add(myPlacemark);
             }
         })
 
